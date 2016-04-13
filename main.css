@@ -1,0 +1,15 @@
+body {
+    background-color: darkorchid;
+    background: url(bg-blur.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    
+}
+
