@@ -1,6 +1,6 @@
 body {
     background-color: darkorchid;
-    background: url(bg-blur.jpg) no-repeat center center fixed; 
+    background: url(bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,12 @@ body {
 }
 
 h1 {
-    color: white;
-    
+    color: transparent;
+    font-family: 'Arimo';
+    font-size: 10vh;
+    margin-top: 35vh;
+    background-color: rgba(128, 216, 255, 0.67);
+    padding: 3vh;
+    display: inline-block;
 }
 
