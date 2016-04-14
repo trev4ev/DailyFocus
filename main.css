@@ -9,12 +9,27 @@ body {
 }
 
 h1 {
-    color: transparent;
+    color: white;
     font-family: 'Arimo';
     font-size: 10vh;
-    margin-top: 35vh;
-    background-color: rgba(128, 216, 255, 0.67);
-    padding: 3vh;
-    display: inline-block;
+    margin-top: 29vh;
+    margin-bottom: 4.5vh;
+}
+
+input {
+    background: rgba(256,256,256,0);
+    border: none;
+    border-bottom: 2px solid white;
+    height: 5vh;
+    width: 30vw;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    padding: 1vh;
+}
+
+input:focus {
+    outline: none;
 }
 
