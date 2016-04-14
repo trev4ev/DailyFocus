@@ -2,7 +2,7 @@ var day = localStorage.getItem("day");
 var date = new Date();
 var today = (date.getMonth()+1).toString() + date.getDate().toString();
 
-if(day == today && localStorage.getItem("goal") != null {
+if(day == today && localStorage.getItem("goal") != null) {
     goalAdded();
 }
 
