@@ -6,14 +6,24 @@ body {
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
+    align-content: center;
 }
 
 h1 {
     color: white;
     font-family: 'Arimo';
     font-size: 10vh;
-    margin-top: 29vh;
     margin-bottom: 4.5vh;
+    margin-top: 0;
+}
+
+h2 {
+    color: #c1c1c1;
+    font-family: 'Source Sans Pro';
+    font-size: 4vh;
+    margin-top: 28vh;
+    margin-bottom: 2vh;
+    visibility: hidden;
 }
 
 input {
@@ -27,9 +37,28 @@ input {
     font-family: 'Source Sans Pro';
     text-align: center;
     padding: 1vh;
+    display: block;
+    margin: auto;
 }
 
 input:focus {
     outline: none;
 }
 
+button {
+    width: 8vh;
+    height: 4vh;
+    font-size: 1.8vh;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-family: 'Source Sans Pro';
+    visibility: hidden;
+    -webkit-transition: background-color 0.4s; /* Safari */
+    transition: background-color 0.4s;
+}
+
+button:hover {
+    background-color: rgba(256,256,256,0.2);
+}
